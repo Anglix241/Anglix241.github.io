@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas en HTML</title>
+    <link rel="stylesheet" href="../ccs/style_page.css" type="text/css">
+    <style type="text/css">
+      
+    </style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/aladin:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header><h1>Página de Tablas</h1>
+</header>
+	
+
+	<nav>
+  <ul>
+    <li><a href="estilo_texto.html" target="_blank">Estilo de Texto&nbsp;</a></li>
+    <li><a href="listas.html" target="_blank">Listas&nbsp;</a></li>
+    <li><a href="tablas.html" target="_blank">Tablas&nbsp;</a></li>
+    <li><a href="imagenes.html" target="_blank">Imágenes&nbsp;</a></li>
+    <li><a href="audio.html" target="_blank">Audios&nbsp;</a> </li>
+    <li> <a href="video.html" target="_blank">Video&nbsp;</a> </li>
+	<li> <a href="formularios.html" target="_blank">Formularios&nbsp;</a> </li>
+	<li> <a href= "fuentes.html" target="_blank">Fuentes y Animación</a> </li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2 class="encabezado_impar"><strong><i>Tabla simple</i></strong></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium perferendis sunt, reiciendis animi placeat maiores nobis voluptatem obcaecati natus, veritatis similique minima quos minus qui iure tenetur aliquam architecto unde sint facere quaerat dicta in tempore suscipit voluptas. Molestiae velit, ipsa rerum ex quod similique vero fuga! Voluptatibus assumenda eveniet provident temporibus doloremque, autem? Quos veritatis praesentium veniam possimus odio nihil vitae inventore dicta assumenda accusantium, optio doloremque maxime commodi ipsum, consequuntur laudantium nobis nostrum nesciunt saepe voluptate unde dolorum!</p>
+      <table>
+          <thead>
+              <tr>
+                  <th colspan="3">Nombre</th>
+                 <!-- <th>Apellido M</th>
+                  <th>Nombre</th>-->
+                  <th>Edad</th>
+                  <th>Matrícula</th>
+                  <th>Celular</th>
+                  
+              </tr>
+          </thead>
+            <tr>
+                  <td>Hernández</td>
+                  <td>González</td>
+                  <td>Stephanie</td>
+                  <td>23</td>
+                  <td>201800000</td>
+                  <td>2221323380</td>
+            </tr>
+              <tr>
+              <td>Morales</td>
+              <td>Mendez</td>
+              <td>Ana Luz</td>
+              <td>21</td>
+              <td>201811111</td>
+              <td>2212075886</td>
+          </tr>
+          <tbody>
+          </tbody>
+          <tfoot>
+              
+          </tfoot>
+      </table>
+  </section>
+  <section >
+    <h2 class="encabezado_par" ><i> Tabla modificada a través de una regla de identificador en CSS</i></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium unde, perspiciatis iste eum excepturi vitae blanditiis aspernatur in libero porro tempore minima provident, distinctio aut officiis eos facilis itaque error, assumenda fuga mollitia quibusdam animi inventore officia! Sed esse pariatur, deleniti officia sequi ex. Eum eveniet odio quisquam, sequi fugiat!</p>
+    
+    <table  id="style_tabla_1">
+      <tbody>
+        <tr>
+          <th width="62" scope="col">Nombre</th>
+          <th width="188" scope="col">Dirección</th>
+          <th width="70" scope="col" colspan="2">Télefonos</th>
+<!--          <th width="92" scope="col">Celular</th>-->
+        </tr>
+        <tr>
+          <td>Eduardo</td>
+          <td>Calle 16 de septiembre No.18</td>
+          <td> 41 7 1596</td>
+          <td>241 132 5897</td>
+        </tr>
+        <tr>
+          <td>José</td>
+          <td>Av. Tlaxcala No. 109</td>
+          <td>41 8 5963</td>
+          <td>246 153 6984</td>
+        </tr>
+        <tr>
+          <td>Teresa</td>
+          <td>Blvd. Fco I madero No. 502</td>
+          <td>41 8 4231</td>
+          <td>241 411 7896</td>
+        </tr>
+        <tr>
+          <td>Pedrito</td>
+          <td>Calle Gardenias No. 74</td>
+          <td>417 5269</td>
+          <td> 247 152 8691</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2 id="encabezado_rojo" class="encabezado_impar"><i>Tabla 3</i></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ullam corporis vitae eaque laboriosam, dignissimos magnam molestiae perferendis facilis veritatis necessitatibus assumenda eveniet, accusamus quisquam quasi aperiam maiores nihil! Corporis saepe ut illo esse veniam natus. Repudiandae distinctio perferendis aliquam, repellendus ducimus exercitationem est itaque qui eius minima, sapiente nobis ipsum unde quibusdam quod quas sunt accusamus odit eaque, hic.</p>
+    <table id="style_tabla_2">
+     
+          <thead> 
+        <tr>
+          <th scope="col">&nbsp;Marca</th>
+          <th scope="col">&nbsp;Modelo</th>
+          <th scope="col">&nbsp;Color</th>
+        </tr>
+          </thead>
+         <tbody>
+        <tr>
+          <td>VW</td>
+          <td>Beattle</td>
+          <td>Rojo</td>
+        </tr>
+        <tr>
+          <td>Toyota</td>
+          <td>Hiace</td>
+          <td>Blanco</td>
+        </tr>
+        <tr>
+          <td>Honda</td>
+          <td>Civic</td>
+          <td>Azul</td>
+        </tr>
+        <tr>
+          <td>Nissan</td>
+          <td>Skyline</td>
+          <td>Negro</td>
+        </tr>
+             
+      </tbody>
+    </table>
+  </section>    
+  <section >
+    <h2 class="encabezado_par"><i> Tabla de Angel</i></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, aut architecto harum distinctio reprehenderit pariatur, rerum atque at culpa autem recusandae optio impedit quidem magnam sit nesciunt voluptatibus expedita fugiat quos quas eveniet. Expedita consequuntur dolores laboriosam tempore! Expedita maxime aliquam maiores, consectetur ratione tempore, quae, quia sed at blanditiis veniam vitae ipsum numquam incidunt accusamus.</p>
+    <table width="400" border="3">
+      <tbody>
+        <tr>
+          <th scope="row">Marca</th>
+          <td>SAMSUNG</td>
+          <td>XIAOMI</td>
+          <td>HUAWEI</td>
+          <td>MOTOROLA</td>
+        </tr>
+        <tr>
+          <th scope="row">Color</th>
+          <td>Negro</td>
+          <td>Azul neón</td>
+          <td>Blanco</td>
+          <td>Rojo</td>
+        </tr>
+        <tr>
+          <th scope="row">Tamaño</th>
+          <td>6.3&quot;</td>
+          <td>6.7&quot;</td>
+          <td>6.4&quot;</td>
+          <td>6.8&quot;</td>
+        </tr>
+        <tr>
+          <th scope="row">Sistema</th>
+          <td>Andoid 10</td>
+          <td>MIUI 12.5</td>
+          <td>HarmonyOS</td>
+          <td>Andoid 11</td>
+        </tr>
+        <tr>
+          <th scope="row">Almacenamiento</th>
+          <td>32GB</td>
+          <td>64GB</td>
+          <td>64GB</td>
+          <td>128GB</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+<footer>
+	<h6>Este  contenido esta elaborado por Angel Hernández Gal</h6>
+	</footer>
+</body>
+</html>
